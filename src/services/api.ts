@@ -1,5 +1,6 @@
-import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
 import { env } from 'constants/environment-variables';
+
+import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
 
 const axiosiInstance = axios.create({
   baseURL: env.BASE_URL

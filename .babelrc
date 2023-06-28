@@ -1,0 +1,11 @@
+{
+  "plugins": [
+      [
+        "babel-plugin-styled-components",
+      ],
+      [
+        "@babel/plugin-syntax-jsx"
+      ]
+  ],
+  "presets": ["@babel/preset-typescript","@babel/preset-react"]
+}
