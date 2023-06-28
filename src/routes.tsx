@@ -1,7 +1,7 @@
-import React from 'react'
-import { BrowserRouter, Routes as ReactRouter, Route } from 'react-router-dom'
-import { Home } from './pages/Home'
-import { About } from './pages/About'
+import React from 'react';
+import { BrowserRouter, Routes as ReactRouter, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
+import { About } from './pages/About';
 
 export const Routes = () => {
   return (
@@ -11,5 +11,5 @@ export const Routes = () => {
         <Route path="about" element={<About />} />
       </ReactRouter>
     </BrowserRouter>
-  )
-}
+  );
+};

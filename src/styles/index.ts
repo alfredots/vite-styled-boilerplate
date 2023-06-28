@@ -1,7 +1,7 @@
-import theme from './theme'
+import theme from './theme';
 
 export const getTheme = () => {
-  return theme
-}
+  return theme;
+};
 
-export * from './global'
+export * from './global';
