@@ -3,6 +3,6 @@ import { getTheme } from 'styles'
 
 const theme = getTheme()
 
-export const Container = styled.div`
-  color: ${theme.colors.gray_300};
+export const Container = styled.main`
+  color: ${theme.colors.red_300};
 `
